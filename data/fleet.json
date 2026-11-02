@@ -1,0 +1,35 @@
+{
+  "summary": {
+    "activeVehicles": 248,
+    "onTimeRate": 96.4,
+    "averageUtilization": 82.7,
+    "openAlerts": 12
+  },
+  "utilization": [
+    { "day": "Mon", "value": 68 },
+    { "day": "Tue", "value": 77 },
+    { "day": "Wed", "value": 72 },
+    { "day": "Thu", "value": 88 },
+    { "day": "Fri", "value": 84 },
+    { "day": "Sat", "value": 91 },
+    { "day": "Sun", "value": 82 }
+  ],
+  "regions": [
+    { "name": "Greater Toronto", "vehicles": 86, "utilization": 91, "status": "Healthy" },
+    { "name": "Golden Horseshoe", "vehicles": 64, "utilization": 84, "status": "Healthy" },
+    { "name": "Ottawa Valley", "vehicles": 51, "utilization": 78, "status": "Watch" },
+    { "name": "Southwestern Ontario", "vehicles": 47, "utilization": 73, "status": "Watch" }
+  ],
+  "vehicles": [
+    { "id": "NS-2481", "driver": "Avery Chen", "route": "Toronto → Hamilton", "eta": "12 min", "health": 98, "status": "In transit" },
+    { "id": "NS-1904", "driver": "Noah Williams", "route": "Ottawa → Kingston", "eta": "34 min", "health": 91, "status": "In transit" },
+    { "id": "NS-2368", "driver": "Maya Patel", "route": "London → Waterloo", "eta": "48 min", "health": 86, "status": "Delayed" },
+    { "id": "NS-1742", "driver": "Liam Tremblay", "route": "Barrie → Toronto", "eta": "8 min", "health": 94, "status": "Arriving" },
+    { "id": "NS-2215", "driver": "Sofia Martin", "route": "Niagara → Hamilton", "eta": "26 min", "health": 89, "status": "In transit" }
+  ],
+  "alerts": [
+    { "severity": "High", "title": "Temperature variance", "detail": "Trailer 6A exceeded its cold-chain threshold.", "time": "8 min ago" },
+    { "severity": "Medium", "title": "Route congestion", "detail": "Highway 401 delay affecting three active routes.", "time": "21 min ago" },
+    { "severity": "Low", "title": "Service window", "detail": "NS-1742 is due for inspection within 240 km.", "time": "1 hr ago" }
+  ]
+}
