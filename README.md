@@ -32,7 +32,7 @@ Northstar Ops is a responsive fleet-intelligence dashboard built for operations 
 - Vehicle health, ETA, and delivery-status monitoring
 - Add-vehicle workflow with session-based state
 - Accessible controls, keyboard-friendly inputs, and reduced-motion support
-- Static production export with automated GitHub Pages deployment
+- Static production export with GitHub Pages deployment
 
 ## ◈ Technology
 
@@ -60,8 +60,6 @@ npm run typecheck
 npm run build
 ```
 
-## ✓ Project report
-
-Build and release details are recorded in [PROJECT_REPORT.md](./PROJECT_REPORT.md).
+## Quality
 
 The acceptance rules used for this project are documented in [QUALITY_STANDARD.md](./QUALITY_STANDARD.md).
